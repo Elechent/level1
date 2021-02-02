@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".vscode/level_1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1">
+       <div id="type">
+           <span id="span1">密码登录</span>
+           <span>短信登陆</span>
+       </div>
+
+       <div id="loginbox">
+            <div class="inputbox">
+                <input id="username" type="text" placeholder="你的手机号/邮箱">
+            </div>
+            <div class="inputbox">
+                <input id="password" type="password" placeholder="密码">
+            </div>
+       </div>
+
+       <div id="remember">
+            <input type="checkbox" class="cursor" id="checkb">
+            <label class="checklabel" for="checkb"></label>
+            <span class="rem cursor">记住我</span>
+            <span class="rem cursor" id="gray">不是自己的电脑上不要勾选此项</span>
+            <a href="https://www.bilibili.com/blackboard/help.html#/?qid=01c16d22f6bb44fd976e8874142b60b6" class="a cursor" target="blank">忘记密码？</a>
+            <a href="https://passport.bilibili.com/register/phone.html#/phone" class="a cursor">无法验证？</a>
+       </div>
+
+       <div id="btn">
+            <a href="" class="log">登录</a>
+            <a href="https://passport.bilibili.com/register/phone.html#/phone" class="reg">注册</a>
+       </div>
+
+       <div id="otherlog">
+           <a href="https://api.weibo.com/oauth2/authorize?client_id=2841902482&redirect_uri=https%3A%2F%2Fpassport.bilibili.com%2Flogin%2Fsnsback%3Fsns%3Dweibo%26state%3Decd00df0606a11ebaf580ab068aa8dae&scope=email###" id="wblog">微博账号登录</a>
+           <a href="https://www.qq.com" id="qqlog">QQ账号登陆</a>
+       </div>
+    </div>
+</body>
+</html>

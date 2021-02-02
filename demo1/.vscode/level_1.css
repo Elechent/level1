@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    color: #555;
+}
+input:focus{
+    outline: none;
+}
+
+#div1{
+    width: 414px;
+    height: 288px;
+    position: relative;
+    margin:auto;
+}
+#type{
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+#span1{
+    color: #02a7de;
+    margin-right: 20px;
+}
+
+#loginbox .inputbox input{
+    width: 404px;
+    height: 20px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+#remember .rem{
+    font-size: 12px;
+    padding-left: 5px;
+    line-height: 16px;
+}
+#remember .cursor{
+    cursor: pointer;
+}
+#remember .a{
+    text-decoration: none;
+    float: right;
+    font-size: 12px;
+    color: #00a1d6; 
+    margin-left: 5px;
+}
+#remember #gray{
+    color: #bbbbbb;
+}
+#checkb{
+    display: none;
+}
+.checklabel:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ccc;
+}
+#checkb:checked+.checklabel:before{
+    background-image: url(gou.png);
+    background-size: 100%;
+}
+
+
+#btn a{
+    display: inline-block;
+    height: 36px;
+    width: 184px;
+    text-decoration: none;
+    line-height: 38px;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#btn .log{
+    border: 1px solid #0381aa;
+    background-color: #00a7de;
+    color: #fff;
+}
+#btn .reg{
+    border: 1px solid #ccc;
+    float: right;
+}
+#otherlog{
+    margin-top: 12px;
+}
+#otherlog a{
+    text-decoration: none ;
+    font-size: 12px;
+    padding-right: 20px;
+}
+#otherlog #wblog::before{
+    display: inline-block;
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url(logo.png);
+    vertical-align: middle;
+    margin-right: 5px;
+}
+#otherlog #qqlog::before{
+    display: inline-block;
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url(logo.png);
+    background-position: 0 -41px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
